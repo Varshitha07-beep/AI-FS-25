@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            .container {
+                display: grid;
+                grid-template-rows: 100px 1fr 100px;
+                width: 100%;
+                height: 100%;
+                gap: 20px;
+                background-color: brown;
+                position: fixed;
+            }
+            .header {
+                background-color: aqua;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 40px;
+                font-size: 20px;
+
+            }
+            .main {
+                background-color: rgb(221, 109, 176);
+                height: 100%;
+                display: grid;
+                grid-template-columns: 100px 1fr;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                gap: 20px;
+            }
+            .footer {
+                background-color: rgb(136, 231, 124);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                left: 100px;
+            }
+            .sidebar {
+                background-color: orangered;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .content {
+                background-color: blue ;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="header">
+                <a href="https://cdn.pixabay.com/photo/2024/02/17/15/59/plum-blossoms-8579641_1280.jpg">Home</a>
+                <a href="https://media.istockphoto.com/id/1208537858/photo/sakura-with-sun.jpg?s=612x612&w=0&k=20&c=FHMrXflYqkVf_xoa6HbgMdcdKjw9oA7dvzCA3pUYi84=">Aboutus</a>
+                <a href="https://media.istockphoto.com/id/1487086569/photo/tokyo-sky-tree-and-sakura-cherry-blossom-in-spring-season-at-tokyo-japan.jpg?s=2048x2048&w=is&k=20&c=ctoRR_tfd0T6lcSzzXk7VE4LPLehsQDlts-DoE9T6T4=">contactus</a>
+            </div>
+            <div class="main">
+                <div class="sidebar">Sidebar</div>
+                <div class="content">Content</div>
+                </div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
+</html>
